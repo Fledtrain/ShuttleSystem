@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project 3000</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-</head>
-<body>
+    <link rel="stylesheet" href="./Frontend/index.css" />
+    <link rel="shortcut icon" href="./Frontend/assets/Project 3000-1.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="main--header">
+        <img src="./Frontend/assets/Project 3000-1.png" alt="">
+      <h1>Project 3000</h1>
+
+    </div>
+
+    <!-- Buttons for student and Admin -->
+    <button class="btn student-btn">
+        <a href="student-signup.html">Student Signup</a>
+    </button>
+    <button class="btn admin-btn">
+        <a href="admin-login.html">Admin Login</a>
+    </button>
     
-    <script src="script.js" defer></script>
-</body>
+
+    <!-- Login -->
+    <div class="login">
+      <form id="login-form" onsubmit="">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <br />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+
+
+
+    <script src="./Frontend/script.js" defer></script>
+  </body>
 </html>
