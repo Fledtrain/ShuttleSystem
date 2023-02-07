@@ -13,11 +13,25 @@ On Campus Shuttle Management
 
 ![Logo](https://pbs.twimg.com/profile_images/1607115031136636928/fZIGEc0r_400x400.jpg)
 
+## Authors
+
+- [@Joey Whitehead](https://www.github.com/Fledtrain)
+- [@Mohamed Musbah](https://github.com/MohamedM829)
+- [@Emdadul Haque](https://www.linkedin.com/in/emdadul-haque-67a021154/)
+- [@Ahmad Aref](https://www.linkedin.com/in/ahmadsaref/)
+- [@Joel Grau](https://www.linkedin.com/in/joel-grau-1a056714a/)
+- [@Anthony Condegni](https://www.linkedin.com/in/anthony-condegni-80365a1ba/)
+
 
 ## Acknowledgements
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ 
+ 
+ 
+
+
 
 ## Thank you
