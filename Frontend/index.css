@@ -353,6 +353,11 @@ button:active {
   padding: 0 8px;
 }
 
+/* For Large Laptops */
+@media(max-width: 1440px) {
+
+}
+
 /* For Ipad screen */
 @media (max-width: 1200px) {
   header {
@@ -372,6 +377,9 @@ button:active {
   }
   .book {
     width: 50%;
+  }
+  .nav__link{
+    font-size: 20px;
   }
 }
 
@@ -400,7 +408,7 @@ button:active {
   
 }
 
-@media (max-width: 550px) {
+@media (max-width: 568px) {
   .nav__links {
     display: none;
   }
