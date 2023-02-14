@@ -383,8 +383,14 @@ button:active {
   }
 }
 
+@media(max-width: 1024px){
+  .nav__link{
+    font-size: 24px;
+  }
+}
+
 /* Small Phones, Tablets, Large Smartphones */
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   .header__description {
     padding: 0 24px;
   }
@@ -402,13 +408,13 @@ button:active {
   }
   /* Shrink nav_link by 10% */
   .nav__link{
-    font-size: 95%;
+    font-size: 16px;
   }
   
   
 }
 
-@media (max-width: 568px) {
+@media (max-width: 600px) {
   .nav__links {
     display: none;
   }
