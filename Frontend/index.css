@@ -40,8 +40,12 @@ a:hover {
 .color {
   color: red;
 }
+/* Logo will fit with screen changing */
 .logo {
-  width: 160px;
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: relative;
 }
 ul {
   display: flex;
@@ -53,7 +57,7 @@ li {
 .nav__link {
   margin-left: 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 28px;
   color: red;
   font-weight: bold;
   padding: 8px;
@@ -265,7 +269,7 @@ button:active {
 /* Features */
 
 #features {
-  background-color: rgba(128, 0, 128, 0.215);
+  background-color: rgba(255, 0, 0, 0.215);
   height: auto;
   padding-top: 8vw;
 }
@@ -322,7 +326,7 @@ button:active {
 }
 
 #more__books {
-  background-color: rgba(128, 0, 128, 0.215);
+  background-color: rgba(255, 0, 0, 0.215);
 }
 
 /* Footer */
@@ -388,6 +392,12 @@ button:active {
   .book {
     width: 50%;
   }
+  /* Shrink nav_link by 10% */
+  .nav__link{
+    font-size: 95%;
+  }
+  
+  
 }
 
 @media (max-width: 550px) {
