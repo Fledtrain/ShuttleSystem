@@ -277,7 +277,7 @@ button:active {
   display: flex;
   flex-wrap: wrap;
 }
-.book {
+.map {
   width: 25%;
   padding: 24px;
 }
@@ -294,7 +294,7 @@ button:active {
   display: flex;
 }
 
-.book:hover .book__img {
+.map:hover .book__img {
   transform: scale(1.03);
 }
 .book__title {
@@ -372,11 +372,11 @@ button:active {
   button {
     font-size: 18px;
   }
-  .book {
+  .map {
     width: 50%;
   }
   .nav__link {
-    font-size: 20px;
+    font-size: 26px;
   }
 }
 
@@ -400,12 +400,12 @@ button:active {
   button {
     font-size: 18px;
   }
-  .book {
+  .map {
     width: 50%;
   }
   /* Shrink nav_link by 10% */
   .nav__link {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
