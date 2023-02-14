@@ -73,10 +73,9 @@ li {
   text-decoration: none;
 }
 
-.text-red{
+.text-red {
   color: red;
 }
-
 
 .btn__menu {
   background-color: transparent;
@@ -139,7 +138,6 @@ li {
   background-size: cover;
   image-rendering: auto;
 }
-
 
 /* Landing Page */
 
@@ -275,7 +273,7 @@ button:active {
 }
 
 /* Featured Books */
-.books {
+.maps {
   display: flex;
   flex-wrap: wrap;
 }
@@ -354,8 +352,7 @@ button:active {
 }
 
 /* For Large Laptops */
-@media(max-width: 1440px) {
-
+@media (max-width: 1440px) {
 }
 
 /* For Ipad screen */
@@ -378,13 +375,13 @@ button:active {
   .book {
     width: 50%;
   }
-  .nav__link{
+  .nav__link {
     font-size: 20px;
   }
 }
 
-@media(max-width: 1024px){
-  .nav__link{
+@media (max-width: 1024px) {
+  .nav__link {
     font-size: 24px;
   }
 }
@@ -407,11 +404,9 @@ button:active {
     width: 50%;
   }
   /* Shrink nav_link by 10% */
-  .nav__link{
+  .nav__link {
     font-size: 16px;
   }
-  
-  
 }
 
 @media (max-width: 600px) {
