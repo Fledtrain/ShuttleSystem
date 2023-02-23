@@ -351,10 +351,6 @@ button:active {
   padding: 0 8px;
 }
 
-/* For Large Laptops */
-@media (max-width: 1440px) {
-}
-
 /* For Ipad screen */
 @media (max-width: 1200px) {
   header {
@@ -386,6 +382,11 @@ button:active {
   }
 }
 
+@media (max-width: 850px) {
+  .nav__link {
+    font-size: 20px;
+  }
+}
 /* Small Phones, Tablets, Large Smartphones */
 @media (max-width: 780px) {
   .header__description {
@@ -405,11 +406,11 @@ button:active {
   }
   /* Shrink nav_link by 10% */
   .nav__link {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
-@media (max-width: 656px) {
+@media (max-width: 700px) {
   .nav__links {
     display: none;
   }
