@@ -5,6 +5,19 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+/* Changes the scrollbar */
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: red;
+}
+/* Changes the Scrollbar */
 html {
   scroll-behavior: smooth;
 }
@@ -193,7 +206,7 @@ button:active {
 }
 
 .container {
-  padding: 56px 0;
+  padding: 48px 0;
 }
 .row {
   width: 100%;
@@ -281,10 +294,10 @@ button:active {
 /* Featured Books */
 .maps {
   display: flex;
-  flex-wrap: wrap;
+  width: 1300px;
 }
 .map {
-  width: 25%;
+  width: 100%;
   padding: 24px;
 }
 .book__img {
@@ -300,9 +313,6 @@ button:active {
   display: flex;
 }
 
-.map:hover .book__img {
-  transform: scale(1.03);
-}
 .book__title {
   font-size: 20px;
   margin-bottom: 8px;
@@ -375,7 +385,7 @@ button:active {
     font-size: 18px;
   }
   .map {
-    width: 50%;
+    width: 70%;
   }
   .nav__link {
     font-size: 26px;
