@@ -288,12 +288,6 @@ button:active {
   padding: 24px;
 }
 
-.map__img--wrapper {
-  margin-bottom: 8px;
-  border-radius: 4px;
-  overflow: hidden;
-  display: flex;
-}
 
 /* Footer */
 
