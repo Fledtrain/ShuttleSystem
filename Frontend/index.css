@@ -40,12 +40,13 @@ a:hover {
 .color {
   color: red;
 }
+
 /* Logo will fit with screen changing */
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 126px;
+  height: 126px;
   display: block;
-  position: relative;
+  margin-top: 66px;
 }
 ul {
   display: flex;
@@ -187,7 +188,7 @@ button:active {
   border: none;
 }
 .header__image--wrapper {
-  padding: 20px;
+  padding: 16px;
   z-index: 50;
 }
 
