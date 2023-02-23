@@ -143,16 +143,6 @@ li {
   color: white;
 }
 
-/* Map/Bus Section */
-#bus {
-  position: absolute;
-  width: 200px;
-  height: 100px;
-  background-image: url("./assets/Shuttlebus.png");
-  background-size: cover;
-  image-rendering: auto;
-}
-
 /* Landing Page */
 
 #landing {
@@ -291,7 +281,7 @@ button:active {
   padding-top: 8vw;
 }
 
-/* Featured Books */
+/* Featured Maps */
 .maps {
   display: flex;
   width: 1300px;
@@ -331,7 +321,7 @@ button:active {
   color: #bfbfbf;
 }
 
-/* More Books Section */
+/* Footer */
 
 .footer {
   display: flex;
@@ -339,7 +329,6 @@ button:active {
   align-items: center;
 }
 
-/* Footer */
 #footer {
   background-color: #242424;
 }
@@ -363,6 +352,8 @@ button:active {
   padding: 0 8px;
 }
 
+
+/* Media Section */
 /* For Ipad screen */
 @media (max-width: 1200px) {
   header {
