@@ -339,10 +339,6 @@ button:active {
   align-items: center;
 }
 
-#more__books {
-  background-color: rgba(255, 0, 0, 0.215);
-}
-
 /* Footer */
 #footer {
   background-color: #242424;
