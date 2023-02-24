@@ -262,8 +262,17 @@ button:active {
   margin-bottom: 16px;
 }
 
-/* Features */
+/* Status Section */
 
+#StatusId{
+  
+}
+
+
+
+/* End of Status Section  */
+
+/* Features */
 #features {
   background-color: rgba(255, 0, 0, 0.215);
   height: auto;
