@@ -347,7 +347,9 @@ button:active {
     font-size: 18px;
   }
   .map {
-    width: 70%;
+    width: 90%;
+    padding: 0 12px;
+    margin: 0 48px;
   }
   .nav__link {
     font-size: 26px;
@@ -380,7 +382,8 @@ button:active {
     font-size: 18px;
   }
   .map {
-    width: 50%;
+    width: 85%;
+    margin: 0 28px;
   }
   /* Shrink nav_link by 10% */
   .nav__link {
