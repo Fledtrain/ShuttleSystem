@@ -281,13 +281,18 @@ button:active {
 }
 
 /* Featured Maps */
+.row__maps {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .maps {
   display: flex;
-  width: 1300px;
 }
 .map {
   width: 100%;
-  padding: 24px;
+  
 }
 
 
