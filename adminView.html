@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 3000</title>
+    <link rel="stylesheet" href="./Frontend/index.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="./Frontend/assets/Project 3000-1(Full).png"
+      type="image/x-icon"
+    />
+    <script src="./Frontend/script.js"></script>
+  </head>
+
+  <body>
+    <section id="landing">
+      <nav>
+        <div class="nav__container">
+          <a href="#">
+            <img
+              class="logo"
+              src="./Frontend/assets/Project 3000-1 no bus roof.png"
+              alt=""
+            />
+          </a>
+          <ul class="nav__links">
+            <li>
+              <a href="./studentLogin.html" class="nav__link">Login</a>
+            </li>
+            <li>
+              <a href="./adminLogin.html" class="nav__link">Signup</a>
+            </li>
+            <li>
+              <a href="#features" class="nav__link nav__link--primary"
+                >Map</a
+              >
+            </li>
+            <li>
+              <a href="#StatusId" class="nav__link nav__link--primary"
+                >Status</a
+              >
+            </li>
+          </ul>
+
+          <!-- Burger Menu -->
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu__links">
+              <!-- Map Link -->
+              <li class="menu__list">
+                <a href="#features" class="menu__link" onclick="closeMenu()"
+                  >Map</a
+                >
+              </li>
+              <!-- End of Map link -->
+
+              <!-- Login -->
+              <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">Login</a>
+              </li>
+              <!-- End of Login link -->
+
+              <!-- Signup -->
+              <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">Signup</a>
+              </li>
+              <!-- End of Signup link -->
+
+              <!-- Status Link -->
+              <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">Status</a>
+              </li>
+              <!-- End of Status link -->
+            </ul>
+          </div>
+          <!-- End of Burger Menu -->
+        </div>
+      </nav>
+
+      <header>
+        <div class="header__container">
+          <div class="header__description">
+            <h1 class="text-red">The Greatest Montclair Shuttle System</h1>
+            <h2>Get to class on time!</h2>
+          </div>
+        </div>
+      </header>
+    </section>
+    
+    <main>
+      <!-- Status -->
+      <section id="StatusId">
+        <div class="container">
+          <div class="row">
+            <h2 class="section__title">
+              <span class="color">Announcements</span>
+            </h2>
+            <div class="highlight__wrapper">
+              <div class="highlight staus__highlight">
+                <div class="highlight__img">
+                  <i class="fas fa-solid fa-scroll"></i>
+                </div>
+                <h3 class="highlight__subtitle">Coming Soon</h3>
+                <p class="highlight__para">Coming Soon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Status -->
+    </main>
+      <!-- Featured Section -->
+      <section id="features">
+        <div class="container">
+          <div class="row__maps">
+            <h2 class="section__title">Map of <span>Montclair</span></h2>
+            <div class="maps">
+              <!-- Montclair Map -->
+              <div class="map">
+                <!-- Add image map of montclair -->
+                <img src="./Frontend/assets/MontclairMap1.png" alt="Picture should be here" />
+
+                <!-- End of Montclair  Map -->
+              </div>
+            </div>
+          </div>
+          <!-- End of Row  -->
+        </div>
+        <!-- End of container -->
+      </section>
+      <!-- End of featured Section -->
+
+      <!-- Highlights Section Why you should choose Project -->
+      <section id="highlights">
+        <div class="container">
+          <div class="row">
+            <h2 class="section__title">
+              Why choose <span class="color">Project 3000</span>
+            </h2>
+            <div class="highlight__wrapper">
+              <div class="highlight">
+                <div class="highlight__img">
+                  <i class="fas fa-school"></i>
+                </div>
+                <h3 class="highlight__subtitle">Easy and Quick</h3>
+                <p class="highlight__para">
+                  Find the bus you need in a matter of seconds!
+                </p>
+              </div>
+              <div class="highlight">
+                <div class="highlight__img">
+                  <i class="fas fa-bus"></i>
+                </div>
+                <h3 class="highlight__subtitle">Fast ASF BOI</h3>
+                <p class="highlight__para">The Quickest way to get to Class</p>
+              </div>
+              <div class="highlight">
+                <div class="highlight__img">
+                  <i class="fas fa-tags"></i>
+                </div>
+                <h3 class="highlight__subtitle">Shuttle</h3>
+                <p class="highlight__para">
+                  World Class Shuttle from the CarParc diem to the Outskirts of
+                  MSU
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- Footer Section -->
+    <section id="footer">
+      <div class="container">
+        <div class="row footer">
+          <a href="#">
+            <figure class="footer__logo">
+              <img
+                src="./Frontend/assets/Project 3000-1 no bus roof.png"
+                class="footer__logo--img"
+                alt=""
+              />
+            </figure>
+          </a>
+          <div class="footer__list">
+            <a href="#" class="footer__link">Home</a>
+            <a href="#features" class="footer__link">Montclair Map</a>
+            <a href="#StatusId" class="footer__link no-cursor">Status</a>
+          </div>
+          <div class="footer__copyright">&copy; 2023 Fledtrain</div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
