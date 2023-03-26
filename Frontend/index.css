@@ -14,8 +14,8 @@ body::-webkit-scrollbar-track {
   background: #1e1e24;
 }
 
-body::-webkit-scrollbar-thumb{
-    background: red;
+body::-webkit-scrollbar-thumb {
+  background: red;
 }
 /* Changes the Scrollbar */
 html {
@@ -169,12 +169,12 @@ header {
 h1 {
   font-size: 56px;
   color: rgb(104, 47, 174);
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   text-align: center;
 }
 h2 {
   font-size: 32px;
-  margin-bottom: 32px;
+  margin-bottom: 12px;
   text-align: center;
 }
 button {
@@ -235,10 +235,9 @@ button:active {
   align-items: center;
   flex-direction: column;
 }
-.staus__highlight{
+.staus__highlight {
   align-items: center;
   width: 100%;
-
 }
 .highlight__img {
   padding: 24px;
@@ -265,11 +264,9 @@ button:active {
 
 /* Status Section */
 
-#StatusId{
+#StatusId {
   background-color: rgba(255, 0, 0, 0.215);
 }
-
-
 
 /* End of Status Section  */
 
@@ -294,7 +291,6 @@ button:active {
   width: 100%;
   margin: 0 48px;
 }
-
 
 /* Footer */
 
@@ -326,7 +322,6 @@ button:active {
 .footer__link {
   padding: 0 8px;
 }
-
 
 /* Media Section */
 /* For Ipad screen */
