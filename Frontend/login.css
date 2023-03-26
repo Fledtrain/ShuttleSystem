@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 32px;
   margin: 0;
 }
 
@@ -96,6 +96,38 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #800000;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+#footer {
+  background-color: #242424;
+}
+.footer__logo {
+  display: flex;
+}
+
+.footer__logo--img {
+  width: 140px;
+  margin: 24px 0;
+}
+.footer__link,
+.footer__copyright {
+  color: white;
+}
+
+.footer__list {
+  margin-bottom: 24px;
+}
+.footer__link {
+  padding: 0 8px;
 }
 
 
