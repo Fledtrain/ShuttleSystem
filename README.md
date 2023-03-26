@@ -1,4 +1,4 @@
-# Project 3000
+# Project 3000 School Project
 On Campus Shuttle Management System
 
 # Description 
