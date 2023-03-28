@@ -31,13 +31,15 @@
     <section id="landing">
       <nav>
         <div class="nav__container">
-          <a href="#">
-            <img
-              class="logo"
-              src="./Frontend/assets/Project 3000-1 no bus roof.png"
-              alt=""
-            />
-          </a>
+          <section>
+            <a href="#" aria-label="Home page Image Logo ">
+              <img
+                class="logo"
+                src="./Frontend/assets/Project 3000-1 no bus roof.png"
+                alt=""
+              />
+            </a>
+          </section>
           <ul class="nav__links">
             <li>
               <a href="./studentLogin.html" class="nav__link">Login</a>
@@ -53,11 +55,20 @@
           </ul>
 
           <!-- Burger Menu -->
-          <button class="btn__menu" onclick="openMenu()">
+          <button
+            class="btn__menu"
+            onclick="openMenu()"
+            aria-label="btn_menu
+          "
+          >
             <i class="fas fa-bars"></i>
           </button>
           <div class="menu__backdrop">
-            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <button
+              class="btn__menu btn__menu--close"
+              onclick="closeMenu()"
+              aria-label="btn__menu"
+            >
               <i class="fas fa-times"></i>
             </button>
             <ul class="menu__links">
