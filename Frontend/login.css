@@ -26,6 +26,12 @@ h1 {
   margin: 0;
 }
 
+.h1-Register {
+  font-size: 42px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
 /* Main Styles */
 main{
   display: flex;
@@ -140,17 +146,17 @@ button[type="submit"]:hover {
 
 /* Media Queries */
 
-@media(max-width: 500px){
-  .btn{
+@media (max-width: 500px) {
+  .btn {
     font-size: 20px;
   }
 }
 
-@media(max-width: 320px){
-  #login-form{
+@media (max-width: 320px) {
+  #login-form {
     width: 80%;
   }
-  .btn{
+  .btn {
     font-size: 16px;
   }
 }
